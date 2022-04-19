@@ -3,5 +3,10 @@
 
 int _putchar(char c);
 
+int _printf(const char *format, ...);
+
+typedef struct specifiers
+{
+	char * spec;
 
 #endif
