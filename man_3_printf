@@ -1,11 +1,18 @@
 ***NAME***
 	_printf - produces output according to format given by specifiers
+
 ***SYNOPSIS***
-    In the case of a command, you get a formal description of how to run it and what command line options it takes.
-DESCRIPTION
-    A textual description of the functioning of the command or function.
+	_printf(format, ...)
+
+***DESCRIPTION***
+	_printf write in std output the string pointed to by format. I f there are some specifiers in the string
+	they are replaced by the value of the variable they refers to.
+
 ***EXAMPLES***
-    Some examples of common usage.
+	1* _printf("I am iron-man.") --> I am iron-man.
+	2* char name = "iron-man";
+	   _printf("I am %s.", name) --> I an iron-man.
+
 ***SEE ALSO***
     A list of related commands or functions.
 ***BUGS***
